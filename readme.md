@@ -16,9 +16,11 @@ on server-side commands from the client.
 
 ### :notebook: | Writing Tests
 
-- 1
-- 2
-- 3
+- TODO: Notes on using Mocha and Cucumber
+- TODO: Using `@watch` (or `@dev`, `@focus` - they do exactly the same thing)
+- TODO: Notes on the "testing lifecycle", ie. _setting up_ and _tearing down_
+- TODO: When to use `xolvio:backdoor`'s server.execute, vs. server.call/apply?
+
 
 ### :runner: | Running Tests
 
@@ -27,6 +29,7 @@ folder, however this article assumes we're using Meteor 1.3 -- according the
 [Chimp documentation], as well as the Meteor Guide (see: [#acceptance-tests]),
 they should actually go within a `tests` folder. Otherwise, the dependency tree
 won't get built properly.
+
 
 ### :computer: | Installing Chimp
 
