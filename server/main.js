@@ -1,3 +1,4 @@
+import '../imports/api/books/methods.js';
 import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(() => {
