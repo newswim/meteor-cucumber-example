@@ -13,7 +13,22 @@ on server-side commands from the client.
 
 ***
 
-### Installing Chimp
+
+### :notebook: | Writing Tests
+
+- 1
+- 2
+- 3
+
+### :runner: | Running Tests
+
+According to the Meteor Chef article, tests can live within the `feature/name`
+folder, however this article assumes we're using Meteor 1.3 -- according the
+[Chimp documentation], as well as the Meteor Guide (see: [#acceptance-tests]),
+they should actually go within a `tests` folder. Otherwise, the dependency tree
+won't get built properly.
+
+### :computer: | Installing Chimp
 
 Globally, via NPM or Yarn seems to be the preferred method.
 
@@ -45,3 +60,5 @@ This project is about _acceptance_, after all.
 [Meteor Chef]: https://themeteorchef.com
 [Acceptance Testing Basics with Chimp]: https://themeteorchef.com/tutorials/acceptance-testing-basics-with-chimp
 [CI]: https://medium.com/@kimeshan/continuous-integration-with-meteor-chimp-galaxy-and-circleci-5ee809ca6116#.oza9isaah
+[#acceptance-tests]: https://guide.meteor.com/testing.html#acceptance-testing
+[Chimp documentation]: https://chimp.readme.io/docs/getting-started-with-meteor-cucumber
